@@ -1,0 +1,8 @@
+.Feedback {
+  display: flex;
+}
+
+.Feedback__item {
+  margin-right: 15px;
+  cursor: pointer;
+}
