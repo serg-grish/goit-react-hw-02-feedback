@@ -17,6 +17,6 @@ const Feedback = ({ feedbackState, onAddFeedback }) => (
 export default Feedback;
 
 Feedback.propTypes = {
-  feedbackState: PropTypes.string.isRequired,
+  feedbackState: PropTypes.array.isRequired,
   onAddFeedback: PropTypes.func.isRequired,
 };
