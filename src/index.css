@@ -4,25 +4,6 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 24px;
 }
-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-  height: 60px;
-  transform: scale(1);
-  border-radius: 50px;
-  cursor: pointer;
-  font-size: 24px;
-  line-height: 0.3px;
-  border: none;
-  color: rgb(48, 16, 163);
-  background-color: rgb(7, 122, 51);
-}
-
-.title {
-  color: #070961;
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
