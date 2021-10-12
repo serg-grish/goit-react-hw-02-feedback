@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "./Feedback.module.css";
+import s from "./Feedback.module.css";
 import PropTypes from "prop-types";
 
 const Feedback = ({ feedbackState, onAddFeedback }) => (
-  <ul className={styles.Feedback}>
+  <ul className={s.Feedback}>
     {feedbackState.map((el) => (
-      <li key={el} className={styles.item}>
-        <button className={styles.btm} onClick={() => onAddFeedback(el)}>
+      <li key={el} className={s.item}>
+        <button className={s.btm} onClick={() => onAddFeedback(el)}>
           {el}
         </button>
       </li>
